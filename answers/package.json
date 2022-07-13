@@ -1,0 +1,27 @@
+{
+    "name": "preparation-class-task-answers",
+    "version": "1.0.0",
+    "description": "Refactory Preparation class Answers",
+    "main": "index.js",
+    "author": "Rodericus Ifo Krista",
+    "license": "MIT",
+    "scripts": {
+        "live:02-mark-scoring": "tsnd --respawn --transpile-only ./src/02-mark-scoring.ts",
+        "live:03-odd-even": "tsnd --respawn --transpile-only ./src/03-odd-even.ts",
+        "live:04-leap-year": "tsnd --respawn --transpile-only ./src/04-leap-year.ts",
+        "live:05-film-rating": "tsnd --respawn --transpile-only ./src/05-film-rating.ts",
+        "build:02-mark-scoring": "tsc && node ./dist/02-mark-scoring.js",
+        "build:03-odd-even": "tsc && node ./dist/03-odd-even.js",
+        "build:04-leap-year": "tsc && node ./dist/04-leap-year.js",
+        "build:05-film-rating": "tsc && node ./dist/05-film-rating.js"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.4"
+    },
+    "engines": {
+        "node": "16.15.1",
+        "npm": "8.13.1"
+    }
+}
